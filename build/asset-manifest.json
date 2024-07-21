@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/traveller-queen/static/js/main.d7912fdc.js",
+    "main.js": "/traveller-queen/static/js/main.bfbc13d7.js",
     "index.html": "/traveller-queen/index.html",
-    "main.d7912fdc.js.map": "/traveller-queen/static/js/main.d7912fdc.js.map"
+    "main.bfbc13d7.js.map": "/traveller-queen/static/js/main.bfbc13d7.js.map"
   },
   "entrypoints": [
-    "static/js/main.d7912fdc.js"
+    "static/js/main.bfbc13d7.js"
   ]
 }

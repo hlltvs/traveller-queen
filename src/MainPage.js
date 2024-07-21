@@ -18,7 +18,7 @@ import Data from "./Cities/Data";
 import LanguageIcon from "@mui/icons-material/Language";
 import PublicIcon from "@mui/icons-material/Public";
 
-const drawerWidth = 240;
+const drawerWidth = 25|0;
 
 function MainPage(props) {
   const { window } = props;
@@ -31,6 +31,7 @@ function MainPage(props) {
 
   const [visitedCityList, setVisitedCityList] = React.useState([
     { country: "China", city: "Hong Kong" },
+    { country: "China", city: "Makao" },
 
     { country: "Japan", city: "Tokyo" },
     { country: "Japan", city: "Osaka" },
@@ -124,7 +125,7 @@ function MainPage(props) {
               <ListItemIcon>
                 {index % 2 === 0 ? <LanguageIcon /> : <PublicIcon />}
               </ListItemIcon>
-              <ListItemText primary={text.city} />
+              <ListItemText primary={text.country + "/" + text.city} />
             </ListItemButton>
           </ListItem>
         ))}
